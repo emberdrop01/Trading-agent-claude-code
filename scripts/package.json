@@ -1,0 +1,12 @@
+{
+  "name": "deriv-ai-trading-analyst-scripts",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Standalone GitHub Actions automation scripts, decoupled from the full dashboard app.",
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "duckduckgo-search": "^1.0.7",
+    "ws": "^8.21.3"
+  }
+}

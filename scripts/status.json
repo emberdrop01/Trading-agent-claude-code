@@ -1,0 +1,6 @@
+{
+  "lastRunAt": null,
+  "triggerSource": null,
+  "results": [],
+  "note": "This file is overwritten automatically by scripts/run-pipeline.mjs on every GitHub Actions run. It exists here only so the first commit has something to diff against."
+}

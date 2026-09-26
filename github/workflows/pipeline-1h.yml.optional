@@ -1,0 +1,45 @@
+# OPTIONAL — disabled by default (same as the original app's cron1hEnabled: false).
+#
+# This file is named ".yml.optional" so GitHub does NOT run it as-is.
+# To enable a 1-hour cadence ALONGSIDE the 30-minute pipeline:
+#   1. Decide if you actually want two alerts overlapping every hour (the 30m
+#      job already covers :00 and :30 — a separate 1h job on the same symbols
+#      is usually redundant unless you point it at DIFFERENT symbols).
+#   2. Rename this file to pipeline-1h.yml (drop the .optional extension) and
+#      move it into .github/workflows/ if it isn't already there.
+#   3. Commit and push.
+#
+# Suggested content once enabled (edit SYMBOLS as needed):
+#
+# name: Trading Pipeline (1h)
+# on:
+#   schedule:
+#     - cron: '0 * * * *'
+#   workflow_dispatch: {}
+# concurrency:
+#   group: trading-pipeline-1h
+#   cancel-in-progress: false
+# permissions:
+#   contents: write
+# jobs:
+#   run-pipeline:
+#     runs-on: ubuntu-latest
+#     timeout-minutes: 8
+#     steps:
+#       - uses: actions/checkout@v4
+#       - uses: actions/setup-node@v4
+#         with:
+#           node-version: '20'
+#           cache: 'npm'
+#           cache-dependency-path: scripts/package.json
+#       - working-directory: scripts
+#         run: npm install --omit=dev
+#       - working-directory: scripts
+#         env:
+#           DERIV_TOKEN: ${{ secrets.DERIV_TOKEN }}
+#           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+#           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+#           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+#           SYMBOLS: ${{ vars.SYMBOLS_1H || 'R_50' }}
+#           TRIGGER_SOURCE: 'CRON_1H'
+#         run: node run-pipeline.mjs

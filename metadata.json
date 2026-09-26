@@ -1,0 +1,6 @@
+{
+  "name": "Deriv AI Trading Analyst",
+  "description": "Automated multi-agent AI trading analyst for Deriv Synthetic Indices with scheduled background cron execution, real-time WebSocket candle ingestion, and Telegram bot dispatch.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
