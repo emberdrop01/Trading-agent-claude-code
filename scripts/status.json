@@ -1,5 +1,5 @@
 {
-  "lastRunAt": "2026-09-26T10:35:51.017Z",
+  "lastRunAt": "2026-09-26T11:04:09.373Z",
   "triggerSource": "CRON_30M",
   "results": [
     {
@@ -15,7 +15,7 @@
       "symbol": "1HZ150V",
       "success": true,
       "verdict": "STRONG SELL",
-      "confidence": 73,
+      "confidence": 69,
       "engine": "QUANTITATIVE_FALLBACK",
       "dataSource": "DERIV_WS_PUBLIC",
       "telegramSent": true
