@@ -1,6 +1,24 @@
 {
-  "lastRunAt": null,
-  "triggerSource": null,
-  "results": [],
-  "note": "This file is overwritten automatically by scripts/run-pipeline.mjs on every GitHub Actions run. It exists here only so the first commit has something to diff against."
+  "lastRunAt": "2026-09-26T09:42:35.326Z",
+  "triggerSource": "MANUAL_RUN",
+  "results": [
+    {
+      "symbol": "R_75",
+      "success": true,
+      "verdict": "WAIT / NEUTRAL",
+      "confidence": 42,
+      "engine": "QUANTITATIVE_FALLBACK",
+      "dataSource": "DERIV_WS_PUBLIC",
+      "telegramSent": true
+    },
+    {
+      "symbol": "R_100",
+      "success": true,
+      "verdict": "WAIT / NEUTRAL",
+      "confidence": 50,
+      "engine": "QUANTITATIVE_FALLBACK",
+      "dataSource": "DERIV_WS_PUBLIC",
+      "telegramSent": true
+    }
+  ]
 }
