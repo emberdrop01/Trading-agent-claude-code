@@ -1,12 +1,12 @@
 {
-  "lastRunAt": "2026-09-27T20:06:41.559Z",
+  "lastRunAt": "2026-09-27T20:37:22.531Z",
   "triggerSource": "CRON_30M",
   "results": [
     {
       "symbol": "1HZ250V",
       "success": true,
       "verdict": "WAIT / NEUTRAL",
-      "confidence": 45,
+      "confidence": 40,
       "engine": "GEMINI",
       "dataSource": "DERIV_WS_PUBLIC",
       "telegramSent": true
@@ -14,8 +14,8 @@
     {
       "symbol": "1HZ150V",
       "success": true,
-      "verdict": "WAIT / NEUTRAL",
-      "confidence": 50,
+      "verdict": "SELL",
+      "confidence": 61,
       "engine": "QUANTITATIVE_FALLBACK",
       "dataSource": "DERIV_WS_PUBLIC",
       "telegramSent": true
@@ -23,8 +23,8 @@
     {
       "symbol": "JUMP100",
       "success": true,
-      "verdict": "WAIT / NEUTRAL",
-      "confidence": 50,
+      "verdict": "STRONG BUY",
+      "confidence": 77,
       "engine": "QUANTITATIVE_FALLBACK",
       "dataSource": "FALLBACK_CALIBRATED",
       "telegramSent": true
@@ -42,7 +42,7 @@
       "symbol": "r_25",
       "success": true,
       "verdict": "STRONG BUY",
-      "confidence": 64,
+      "confidence": 74,
       "engine": "QUANTITATIVE_FALLBACK",
       "dataSource": "FALLBACK_CALIBRATED",
       "telegramSent": true
@@ -50,26 +50,26 @@
     {
       "symbol": "JUMP10",
       "success": true,
-      "verdict": "BUY",
-      "confidence": 75,
-      "engine": "GEMINI",
+      "verdict": "WAIT / NEUTRAL",
+      "confidence": 50,
+      "engine": "QUANTITATIVE_FALLBACK",
       "dataSource": "FALLBACK_CALIBRATED",
       "telegramSent": true
     },
     {
       "symbol": "1HZ50V",
       "success": true,
-      "verdict": "SELL",
-      "confidence": 72,
-      "engine": "GEMINI",
+      "verdict": "WAIT / NEUTRAL",
+      "confidence": 42,
+      "engine": "QUANTITATIVE_FALLBACK",
       "dataSource": "DERIV_WS_PUBLIC",
       "telegramSent": true
     },
     {
       "symbol": "1HZ100V",
       "success": true,
-      "verdict": "STRONG BUY",
-      "confidence": 78,
+      "verdict": "WAIT / NEUTRAL",
+      "confidence": 50,
       "engine": "QUANTITATIVE_FALLBACK",
       "dataSource": "DERIV_WS_PUBLIC",
       "telegramSent": true
@@ -78,7 +78,7 @@
       "symbol": "r_75",
       "success": true,
       "verdict": "WAIT / NEUTRAL",
-      "confidence": 42,
+      "confidence": 50,
       "engine": "QUANTITATIVE_FALLBACK",
       "dataSource": "FALLBACK_CALIBRATED",
       "telegramSent": true
@@ -95,8 +95,8 @@
     {
       "symbol": "r_100",
       "success": true,
-      "verdict": "STRONG BUY",
-      "confidence": 76,
+      "verdict": "WAIT / NEUTRAL",
+      "confidence": 50,
       "engine": "QUANTITATIVE_FALLBACK",
       "dataSource": "FALLBACK_CALIBRATED",
       "telegramSent": true
@@ -104,8 +104,8 @@
     {
       "symbol": "r_50",
       "success": true,
-      "verdict": "WAIT / NEUTRAL",
-      "confidence": 42,
+      "verdict": "STRONG SELL",
+      "confidence": 76,
       "engine": "QUANTITATIVE_FALLBACK",
       "dataSource": "FALLBACK_CALIBRATED",
       "telegramSent": true
