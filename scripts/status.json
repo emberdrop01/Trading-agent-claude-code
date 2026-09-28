@@ -1,12 +1,12 @@
 {
-  "lastRunAt": "2026-09-28T18:42:49.395Z",
+  "lastRunAt": "2026-09-28T19:06:35.965Z",
   "triggerSource": "CRON_30M",
   "results": [
     {
       "symbol": "1HZ250V",
       "success": true,
-      "verdict": "STRONG BUY",
-      "confidence": 80,
+      "verdict": "WAIT / NEUTRAL",
+      "confidence": 50,
       "engine": "QUANTITATIVE_FALLBACK",
       "dataSource": "DERIV_WS_PUBLIC",
       "telegramSent": true
@@ -23,8 +23,8 @@
     {
       "symbol": "JUMP100",
       "success": true,
-      "verdict": "STRONG BUY",
-      "confidence": 70,
+      "verdict": "WAIT / NEUTRAL",
+      "confidence": 50,
       "engine": "QUANTITATIVE_FALLBACK",
       "dataSource": "FALLBACK_CALIBRATED",
       "telegramSent": true
@@ -41,8 +41,8 @@
     {
       "symbol": "r_25",
       "success": true,
-      "verdict": "STRONG BUY",
-      "confidence": 78,
+      "verdict": "WAIT / NEUTRAL",
+      "confidence": 50,
       "engine": "QUANTITATIVE_FALLBACK",
       "dataSource": "FALLBACK_CALIBRATED",
       "telegramSent": true
@@ -69,7 +69,7 @@
       "symbol": "1HZ100V",
       "success": true,
       "verdict": "WAIT / NEUTRAL",
-      "confidence": 50,
+      "confidence": 42,
       "engine": "QUANTITATIVE_FALLBACK",
       "dataSource": "DERIV_WS_PUBLIC",
       "telegramSent": true
@@ -77,8 +77,8 @@
     {
       "symbol": "r_75",
       "success": true,
-      "verdict": "SELL",
-      "confidence": 59,
+      "verdict": "STRONG BUY",
+      "confidence": 78,
       "engine": "QUANTITATIVE_FALLBACK",
       "dataSource": "FALLBACK_CALIBRATED",
       "telegramSent": true
@@ -86,8 +86,8 @@
     {
       "symbol": "r_10",
       "success": true,
-      "verdict": "STRONG SELL",
-      "confidence": 78,
+      "verdict": "WAIT / NEUTRAL",
+      "confidence": 42,
       "engine": "QUANTITATIVE_FALLBACK",
       "dataSource": "FALLBACK_CALIBRATED",
       "telegramSent": true
@@ -95,8 +95,8 @@
     {
       "symbol": "r_100",
       "success": true,
-      "verdict": "WAIT / NEUTRAL",
-      "confidence": 42,
+      "verdict": "STRONG SELL",
+      "confidence": 63,
       "engine": "QUANTITATIVE_FALLBACK",
       "dataSource": "FALLBACK_CALIBRATED",
       "telegramSent": true
